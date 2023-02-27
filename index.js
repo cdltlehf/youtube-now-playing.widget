@@ -1,4 +1,4 @@
-command: "osascript now-playing.widget/lib/get_url.scpt",
+command: "osascript youtube-now-playing.widget/lib/get_url.scpt",
 refreshFrequency: 1000,
 style: `
 top: 0;
