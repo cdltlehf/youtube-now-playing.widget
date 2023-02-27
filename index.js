@@ -42,7 +42,7 @@ cursor: default;
     left: 50%;
     top: 50%;
     height: auto;
-    width: 180vw;
+    width: 100vw;
     transform: translate(-50%,-50%);
     filter: saturate(300%) blur(50px);
   }
@@ -72,13 +72,15 @@ cursor: default;
     left: 50%;
     transform: translateX(-50%);
     transition: transform .2s;
+    // background-color: black;
 
     > img {
       position: absolute;
+      border-radius: 5px;
       left: 50%;
       top: 50%;
       height: auto;
-      width: 180%;
+      width: 100%;
       transform: translate(-50%,-50%);
     }
   }
@@ -103,7 +105,7 @@ cursor: default;
   font-family: sans-serif;
   overflow: visible;
   white-space: no-wrap;
-  margin-top: 100px;
+  // margin-top: 100px;
 
   > .spin {
     display: inline-block;
